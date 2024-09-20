@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html,body{
+    background-color: rgb(152, 148, 148);
+}
+.Main{
+    background-color: rgb(250, 249, 247);
+    margin-left: 390px;
+    padding: 30px 20px;
+    width: 35%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    border: 2px solid black;
+    background-color: rgb(252, 224, 167);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.4); */
+    
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(235, 2, 68);
+    text-shadow:2px 2px 2px  rgba(0,0,0,0.9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: rgb(254, 208, 57);
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.box-1{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.box-1 input{
+    width: 94%;
+}
+.box-2{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.box-3{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.box-3 input{
+    width: 94%;
+}
+.box-4{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+.box-5{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+.box-5 input{
+    width: 44%;
+}
+.box-6{
+    background-color: rgb(252, 224, 167);
+    width: 96%;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+.box-7{
+    background-color: rgb(252, 224, 167);
+    margin: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+.box-8 input{
+    font-weight: 700;
+    cursor:pointer;
+    font-size: 15px;
+    margin-left: 28%;
+    color: rgb(253, 34, 169);
+    width: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box-9 input{
+    font-weight: 700;
+    cursor:pointer;
+    font-size: 15px;
+    margin-left: 28%;
+    color: rgb(176, 7, 7);
+    width: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media all and (max-width:500px) {
+    .Main{
+        /* background-color: rgb(250, 249, 247); */
+        margin-left: 0px;
+        padding: 0px;
+        width: 95%;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+}
